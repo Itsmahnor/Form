@@ -11,16 +11,16 @@ body{
   
 }
 .main-box {
-    background-color: white;
+   background-color: white;
     width: 700px;
    
    height:600px;
    border: 1px solid transparent;
    border-radius: 5px;
-   margin-left: 25rem;
+   margin-left: 35rem;
    margin-right: 35rem;
-   margin-top: 3rem;
-   margin-bottom: 8rem;
+   margin-top: 10rem;
+   margin-bottom: 30rem;
     color: black;
 }
 
