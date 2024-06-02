@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(128,128,128,0.5);
+    color: #485e74;
+  
+    font-family: 'Times New Roman', Times, serif;
+  
+}
+.main-box {
+    background-color: white;
+    width: 700px;
+   
+   height:600px;
+   border: 1px solid transparent;
+   border-radius: 5px;
+   margin-left: 25rem;
+   margin-right: 35rem;
+   margin-top: 3rem;
+   margin-bottom: 8rem;
+    color: black;
+}
+
+.main-content{
+    margin-left: 2rem;
+}
+.Input{
+    width: 19rem;
+    height: 3rem;
+}
+   
+.Second-col{
+    float: right;
+    margin-right: 2rem;
+    margin-left:1rem;
+}
+
+.Address{
+    width: 95%;
+    height: 4rem;
+}
+.Third-col{
+    margin-top: 2rem;
+}
+
+.fourth-col {
+    float: right;
+    margin-right: 2rem;
+    margin-left:1rem;
+    margin-top: 2rem;
+}
+.Input-file {
+  padding: 10px;
+  align-items: center;
+    border: 1px solid rgba(128,128,128,1);
+    border-radius: 2px;
+    height: 3rem;
+    width: 19rem;
+  
+}
+ button {
+    float: right;
+    background-color:red;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 6px;
+  margin-top: 1.5rem;
+  margin-right: 1.5rem;
+    font-size: 16px;
+}
+
+
+
+
