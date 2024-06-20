@@ -11,22 +11,25 @@ body{
   
 }
 .main-box {
-   background-color: white;
-    width: 700px;
-   
+    weight:100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  align-items: center;
+}
+.main-content {
+    background-color: white;
+     width: 700px;
+     border: 1px solid transparent;
+     border-radius: 5px;
+    
    height:600px;
-   border: 1px solid transparent;
-   border-radius: 5px;
-   margin-left: 35rem;
-   margin-right: 35rem;
-   margin-top: 10rem;
-   margin-bottom: 30rem;
-    color: black;
+   padding: 1rem;
+  
 }
 
-.main-content{
-    margin-left: 2rem;
-}
+
 .Input{
     width: 19rem;
     height: 3rem;
@@ -72,7 +75,132 @@ body{
   margin-right: 1.5rem;
     font-size: 16px;
 }
+@media(max-width:631px){
+    .main-box {
+        weight:100vw;
+        height: 100vh;
+        display: block;
+        margin-top: 20rem;
+    }
+}
 
+@media (max-width:685px) {
+    .main-box {
+        weight:100vw;
+        height: 100vh;
+       
+    }
+    .main-content {
+        background-color: white;
+         width: 700px;
+         border: 1px solid transparent;
+         border-radius: 5px;
+        
+       height:600px;
+       padding: 1rem;
+      
+    }
+    .main-content {
+        background-color: white;
+         width: 700px;
+         border: 1px solid transparent;
+         border-radius: 5px;
+        
+       height:600px;
+       padding: 1rem;
+      
+    }
+    
+.Input{
+    width: 18rem;
+    height: 3rem;
+}
+   
+.Second-col{
+   float: inline-start;
+    margin-right: 0.5rem;
+    margin-left:0.5rem;
+}
+
+.Address{
+    width: 95%;
+    height: 4rem;
+}
+.Third-col{
+    margin-top: 2rem;
+}
+
+.fourth-col {
+    float: inline-start;
+    margin-right: 0.5rem;
+    margin-left:0.5rem;
+}
+.Input-file {
+  padding: 10px;
+  align-items: center;
+    border: 1px solid rgba(128,128,128,1);
+    border-radius: 2px;
+    height: 3rem;
+    width: 19rem;
+  
+}
+ button {
+    float: right;
+    background-color:red;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 6px;
+  margin-top: 1.5rem;
+  margin-right: 1.5rem;
+    font-size: 16px;
+}
+    
+.Input{
+    width: 18rem;
+    height: 3rem;
+}
+   
+.Second-col{
+   float: inline-start;
+    margin-right: 0.5rem;
+    margin-left:0.5rem;
+}
+
+.Address{
+    width: 95%;
+    height: 4rem;
+}
+.Third-col{
+    margin-top: 2rem;
+}
+
+.fourth-col {
+    float: inline-start;
+    margin-right: 0.5rem;
+    margin-left:0.5rem;
+}
+.Input-file {
+  padding: 10px;
+  align-items: center;
+    border: 1px solid rgba(128,128,128,1);
+    border-radius: 2px;
+    height: 3rem;
+    width: 19rem;
+  
+}
+ button {
+    float: right;
+    background-color:red;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 6px;
+  margin-top: 1.5rem;
+  margin-right: 1.5rem;
+    font-size: 16px;
+}
+}
 
 
 
